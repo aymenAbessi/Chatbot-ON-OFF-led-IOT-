@@ -19,7 +19,7 @@
 
 // Insert Authorized Email and Corresponding Password
 #define USER_EMAIL "iot@gmail.com"
-#define USER_PASSWORD "50056745"
+#define USER_PASSWORD ""
 
 
 
@@ -33,10 +33,10 @@ int greenPin=33;
 #define WIFI_PASSWORD "yyyyyyyy"
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyCjVBKkmTLPo8QIa4yMSKv3SFPGWElf-wA"
+#define API_KEY ""
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://projet-iot-effaf-default-rtdb.firebaseio.com/" 
+#define DATABASE_URL "" 
 
 //Define Firebase Data object
 FirebaseData fbdo;
