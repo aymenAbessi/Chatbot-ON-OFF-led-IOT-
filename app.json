@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "IOT_First",
+    "slug": "IOT_First",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.aymen2022.IOT_First"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins":[
+      [
+        "@react-native-voice/voice",{
+          "microphonePermission":"Allow to access to the microphone",
+          "speechRecognitionPermission":"Allow to securly recognize user speech"
+        
+        }
+      ]
+
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9f7e4a5f-8bc1-4abd-8f37-290044d20643"
+      }
+    }
+  }
+}
